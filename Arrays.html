@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arrays</title>
+</head>
+<body>
+    <h2>ARRAYS IN JAVASCRIPT</h2>
+</body>
+<script>
+    // let marks = [90,92,45,66,70, ,null,false, "ihsan"]//[90, 92, 45, 66, 70, empty, null, false, 'ihsan']
+    // console.log(marks)
+
+    // //FINDING LENGTH
+    // console.log("the lenght of the given array is :",marks.length)
+
+    // //ACCESSING EACH VALUE
+    //  console.log(marks[0])//90
+    //  console.log(marks[1])//92
+    //  console.log(marks[2])//45
+    //  console.log(marks[3])//66
+    // console.log(marks[4])//70
+    // console.log(marks[5])//undefined
+    // console.log(marks[6])//null
+    // console.log(marks[7])//false
+    // console.log(marks[8])//ihsan
+    // console.log(marks[9])//undefined bcz index 9 doesnt exist
+
+    // //CHANGING THE VALUES OF AN ARRAY
+    // marks[0] = 50//we can change the value in existing array
+
+    // //ADDING A NEW VALUE
+    // marks[9] = "asmat"//we can also add a new element in an array
+    // console.log(marks)
+
+    // //ARRAY IS THE TYPE OF OBJECT
+    // console.log(typeof marks)///object
+
+    // for (let i= 0; i < marks.length; i++){
+    //     console.log(marks);
+    // }
+
+
+    //ARRAY METHODS
+
+    //01: TO STRING METHOD
+    // let num = [1,2,3,4,5,6];
+    // let b = num.toString()
+    // console.log(b)//1,2,3,4,5,6
+    // console.log(typeof b)//string
+
+    // //02: JOIN METHOD
+    // let c = num.join("-")
+    // console.log(c)//1-2-3-4-5-6
+    // console.log(typeof c)//string
+
+    // let name = ["ihsan" , "asmat" , "naeem" ,"hafeez" , "safeer"]
+    // let name2 = name.join("ullah -")
+    // console.log(name2)
+    // //03: POP() METHOD REMOVE LAST ELEMENT FROM THE ARRAY
+    // num.pop()
+    // console.log(num)//[1, 2, 3, 4, 5]
+
+    // //04: PUSH() METHOD ADD A NEW ELEMENT IN THE END OF THE ARRAY
+    // num.push(10)
+    // console.log(num)//[1, 2, 3, 4, 5, 10]
+
+    // //05: SHIFT METHOD REMOVE FIRST ELEMENT FROM THE ARRAY
+    // let d = num.shift()
+    // console.log(d)//[2, 3, 4, 5, 10]
+    // console.log(d , num)//1 (5) [2, 3, 4, 5, 10]
+
+    // //06: UNSHIFT() METHOD ADD NEW ELEMENT AT THE BEGINNIG
+    // num.unshift(22)
+    // console.log(num)// [22, 2, 3, 4, 5, 10]
+
+    //07: DELETE METHOD
+    // let num = [1,2,3,4,5,6]
+    // console.log(num)//[1, 2, 3, 4, 5, 6]
+    // console.log(num.length)//6
+    // delete num[0]
+    // console.log(num)// [empty, 2, 3, 4, 5, 6]
+    // console.log(num.length)//6
+
+    //08: CONCAT METHOD
+    // let num1 = [1,2,3]
+    // let num2 = [4,5,6]
+    // let num3 = [7,8,9]
+    // let num4 = num1.concat(num2,num3)
+    // console.log(num4)//[1, 2, 3, 4, 5, 6, 7, 8, 9]
+
+    //09: SORT() METHOD  THEY SORT ALPHEDICALLY
+    // let arr = [1,2,4,6,3,66,33,55,99,11,13]
+    // arr.sort()
+    // console.log(arr)//[1, 11, 13, 2, 3, 33, 4, 55, 6, 66, 99]
+
+    //SORT IN ACCENDING ORDER
+    // let compare = (a,b)=>{
+    //      return a - b;
+    // }
+    // let arr = [1,2,4,6,3,66,33,55,99,11,13]
+    // arr.sort(compare)
+    // console.log(arr)//[1, 2, 3, 4, 6, 11, 13, 33, 55, 66, 99]
+
+    //SORT IN DESCENDING ORDER
+    // let compare = (a,b)=>{
+    //      return b - a;
+    // }
+    // let arr = [1,2,4,6,3,66,33,55,99,11,13]
+    // arr.sort(compare)
+    // console.log(arr)//[99, 66, 55, 33, 13, 11, 6, 4, 3, 2, 1]
+
+    //10: REVERSE METHOD 
+    // let num = [1,2,3,4,5,6,7]
+    // console.log(num)
+    // num.reverse()
+    // console.log(num)// [7, 6, 5,4,3, 2, 1]
+
+    //11: SPLICE METHOD
+    // let num = [1,2,3,4,5,6,7]
+    // num.splice(2,2,201,2022,2023,2024,2025)
+    // console.log(num)//[1, 2, 201, 2022, 2023, 2024, 2025, 5, 6, 7]
+
+    //12: SLICE METHOD THEY CREATE A NEW ARRAY
+//     let num = [1,2,3,4,5,6,7]
+//    let newArray = num.slice(2)
+//    console.log(newArray)//[3, 4, 5, 6, 7]
+//     let newArray1 =num.slice(2,5)
+//     console.log(newArray1) //[3, 4, 5]
+
+
+
+
+
+
+
+
+</script>
+</html>
