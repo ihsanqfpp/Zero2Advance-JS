@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operators </title>
+</head>
+<body>
+    <h2>Operators in javascript</h2>
+</body>
+<script>
+//ARITHMETIC OPERATORS
+    // let a  = 10
+    // let b = 5
+
+    // console.log("a + b :", a+b)
+    // console.log("a - b :", a-b)
+    // console.log("a * b :", a*b)
+    // console.log("a / b :", a/b)
+    // console.log("a % b :", a%b)
+    //console.log("a ** b :", a**b)
+    // console.log("a++ :", a++)
+    // console.log(a)
+    // console.log("a-- :", a--)
+    // console.log(a)
+    // console.log("++b :", ++b)
+    // console.log("--b :", --b)
+
+
+    //ASSIGNMENT OPERATORS
+
+    // let a = 10
+    // console.log(a)//10
+    // a = 20
+    // console.log(a)//20
+    // a += 10//same as a = a + 5
+    // console.log(a)//30
+    // a -= 5//same as a = a - 5
+    // console.log(a)//25
+    // a *= 10//same as a = a * 5
+    // console.log(a)//250
+    // a /= 5//same as a = a / 5
+    // console.log(a)//50
+    // a %= 4//same as a = a % 5
+    // console.log(a)//2
+    // a **= 5//same as a = a ** 5 means 2*2*2*2*2
+    // console.log(a)//32
+
+
+    //COMPARISON OPERATORS
+
+    // let comp1 = 7
+    // let comp2 = 8
+    // // console.log("comp1 == comp2 :" , comp1 == comp2)//false
+    // // console.log("comp1 != comp2 :" , comp1 != comp2)//true
+    // // console.log("comp1 === comp2 :" , comp1 === comp2)//false
+    // // console.log("comp1 !== comp2 :" , comp1 !== comp2)//true
+    //  console.log("comp1 > comp2 :" , comp1 > comp2)//false
+    //  console.log("comp1 >=comp2 :" , comp1 >= comp2)//false
+    //  console.log("comp1 < comp2 :" , comp1 < comp2)//true
+    //  console.log("comp1 <= comp2 :" , comp1 <= comp2)//true
+
+    //EXAMPLE 2
+    // let comp1 = 8
+    // let comp2 = "8"
+    // console.log("comp1 == comp2 :" , comp1 == comp2)//true
+    // console.log("comp1 != comp2 :" , comp1 != comp2)//false
+    // console.log("comp1 === comp2 :" , comp1 === comp2)//false
+    // console.log("comp1 !== comp2 :" , comp1 !== comp2)//true
+
+
+    //LOGICAL OPERATORS
+    // let x =10
+    // let y =15
+    // console.log(x > y && x==10);//false
+    // console.log(x < y && y==15)//true
+    // console.log(x > y || y == 15)//true
+    // console.log(y < x || x == 15)//false
+    // console.log(!false)//true
+    // console.log(!true)//false 
+
+
+   // Practice Tasks for Arithmetic Operators in JavaScript
+//1...Addition (+):reate two variables holding numbers. Add them together and log the result.
+// let a = 5
+// let b = 10
+// console.log(`the sum of ${a} and ${b} is : ${a + b}`)
+
+//2...Subtraction (-):Write a program to find the difference between two numbers. Use both positive and negative numbers.
+// let a = 35
+// let b = 10
+// console.log(`the sub of ${a} and ${b} is : ${a - b}`)
+
+//EXAMPLE 02
+// let a = -35
+// let b = 10
+// console.log(`the sub of ${a} and ${b} is : ${a - b}`)//-45
+
+
+//3...Multiplication (*):Multiply two numbers and log the product. Try using both integers and decimals
+// let a = 10
+// let b = 5
+// console.log(`the multiplication of ${a} and ${b} is : ${a * b}`)
+
+//EXAMPLE 02
+// let a = 10.55
+// let b = 5.2
+// console.log(`the multiplication of ${a} and ${b} is : ${a * b}`)
+
+//4...Division (/):Divide two numbers and display the result. Also, test dividing by zero.
+// let a = 100
+// let b = 20
+// console.log(`the division of ${a} and ${b} is : ${a / b}`)
+
+//EXAMPLE 02
+l//et a = 10
+// let b = 0
+// console.log(`the division of ${a} and ${b} is : ${a / b}`)//answer is infinity
+
+
+//5...Exponentiation (**):Use the exponentiation operator to calculate the square and cube of a number.
+// let a = 10
+// let b = a ** 2
+// console.log(b)
+
+//6...Modulus (%):Write a program to find the remainder when one number is divided by another.
+// let a =10
+// let b = 2
+// let remainder = a % b
+// console.log(`the remainder of ${a} and ${b} is : ${remainder}`)
+
+
+//7..Increment (++):Declare a variable and use the increment operator to increase its value by one. Log the value before and after incrementing.
+// let a = 10
+// console.log(a);
+// a++;
+// console.log(a)
+
+//8...Decrement (--):Declare a variable and use the decrement operator to decrease its value by one. Log the value before and after decrementing.
+// let a = 10
+// console.log(a);
+// a--;
+// console.log(a)
+
+//9...Combined Operations:Write a program that performs a series of arithmetic operations on a number (e.g., add 10, subtract 5, multiply by 2, divide by 3).
+// let a = 10
+// let b = 5
+// let c = 2
+// let d = 3
+// let combined = (10 - 5 * 2 / 3)
+// console.log(Math.round(combined))
+
+//User Input:Prompt the user to enter two numbers. Perform all arithmetic operations on these numbers and display the results.
+// let num1 = parseInt(prompt("enter num 1"))
+// let num2 = parseInt(prompt("enter num 2"))
+// console.log(`the sum of ${num1} and ${num2} is : ${num1 + num2}`)
+// console.log(`the sub of ${num1} and ${num2} is : ${num1 - num2}`)
+// console.log(`the multi of ${num1} and ${num2} is : ${num1 * num2}`)
+// console.log(`the div of ${num1} and ${num2} is : ${num1 / num2}`)
+// console.log(`the remainder of ${num1} and ${num2} is : ${num1 % num2}`)
+</script>
+</html>
